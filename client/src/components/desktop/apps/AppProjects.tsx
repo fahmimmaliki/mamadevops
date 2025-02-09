@@ -58,7 +58,7 @@ export function AppProjects() {
                 This is a collection of projects that I have been working on.
               </Text>
               <Text>
-                This is part of my ongoing project called "Mama DevOps", stay tune!
+                This is part of my ongoing project called Mamadevops, stay tune!
               </Text>
             </Flex>
           </>

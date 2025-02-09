@@ -1,5 +1,6 @@
+// import { ExternalLinkIcon } from "@chakra-ui/icons";  // Ensure you import the ExternalLinkIcon if using Chakra UI
 import { AppMarkdownLayout } from "@/components/desktop/apps/layout/AppMarkdownLayout";
-import { ExternalLinkIcon } from "@chakra-ui/icons";  // Ensure you import the ExternalLinkIcon if using Chakra UI
+
 
 const md = `
 ## **About This Site**
