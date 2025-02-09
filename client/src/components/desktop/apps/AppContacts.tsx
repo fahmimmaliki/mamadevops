@@ -3,37 +3,31 @@ import { AppMarkdownLayout } from "@/components/desktop/apps/layout/AppMarkdownL
 const md = `
  **Email**
 
-[hello@fahru.me](mailto:hello@fahru.me)
-
-<br />
-
-**Mastodon**
-
-[Fahru](https://fosstodon.org/@fahru)
-
-<br />
-
-**Twitter (inactive)**
-
-[@f_fakhrusy](https://twitter.com/f_fakhrusy)
-
-<br />
-
-**GitHub**
-
-[mfakhrusy](https://github.com/mfakhrusy/)
-
-<br />
-
-**Stack Overflow**
-
-[mfakhrusy](https://stackoverflow.com/users/5835100/mfakhrusy)
+[fahmi.mmaliki@gmail.com](mailto:fahmi.mmaliki@gmail.com)
 
 <br />
 
 **LinkedIn**
 
-[M Fahru](https://www.linkedin.com/in/mfahru/)
+[Fahmi Mahmud Maliki](https://www.linkedin.com/in/fahmimmaliki/)
+
+<br />
+
+**GitHub**
+
+[fahmimmaliki](https://github.com/fahmimmaliki/)
+
+<br />
+
+**Stack Overflow**
+
+[fahmi-mahmud-maliki](https://stackoverflow.com/users/11349002/fahmi-mahmud-maliki)
+
+<br />
+
+**Twitter (inactive)**
+
+[@fahmimmaliki](https://x.com/fahmimmaliki)
  
 `;
 

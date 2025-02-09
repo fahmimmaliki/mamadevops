@@ -16,7 +16,7 @@ function HomeScreen() {
     () => (
       <MultilineTypewriter
         texts={[
-          "Hello, my name is Fahru",
+          "Hello, my name is Fahmi",
           "I'm a software engineer",
           "and this is my personal site",
           ". . .",

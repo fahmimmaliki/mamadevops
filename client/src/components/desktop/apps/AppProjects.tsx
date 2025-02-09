@@ -28,17 +28,17 @@ export function AppProjects() {
             <Text>My Hobby Projects</Text>
             <Divider mt={4} mb={4} />
             <Heading size="sm" as="h1">
-              <Text mb={4}>Mathematic Hub: Equation Visualizer</Text>
+              <Text mb={4}>Still Casting Spell</Text>
             </Heading>
             <Image
-              src="/images/eq-vis-math-hub-demo.png"
+              src="/images/wip-wizard.png"
               maxW={{ base: "90%", md: "70%" }}
               h="auto"
               mb={3}
-              alt="Mathematic Hub: Equation Visualizer"
+              alt="null"
             />
             <Link
-              href="https://github.com/mfakhrusy/math-hub"
+              href="https://github.com/fahmimmaliki"
               textDecor="underline"
               mb={3}
               target="_blank"
@@ -46,7 +46,7 @@ export function AppProjects() {
               GitHub <ExternalLinkIcon />
             </Link>
             <Link
-              href="https://mathematic-hub.fakhrusy.com/tools/equation-visualizer"
+              href="https://mamadevops.com/desktop"
               textDecor="underline"
               mb={3}
               target="_blank"
@@ -55,12 +55,10 @@ export function AppProjects() {
             </Link>
             <Flex maxW="700px" flexDir="column">
               <Text>
-                I built a math expression (function) visualizer in typescript,
-                react, and mathjs.
+                This is a collection of projects that I have been working on.
               </Text>
               <Text>
-                This is part of my ongoing project of mathematic learning
-                platform (mathematic-hub), stay tune!
+                This is part of my ongoing project called "Mama DevOps", stay tune!
               </Text>
             </Flex>
           </>

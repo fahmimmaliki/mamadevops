@@ -1,99 +1,52 @@
 import { AppMarkdownLayout } from "@/components/desktop/apps/layout/AppMarkdownLayout";
 
 const md = `
-# Software Engineer
+# Experience
 
-**Overleaf**
+## DevOps Engineer
 
-*Feb 2022 - Current, Full-time*
+**Gak Gendut Lagi (GGL)**  
 
-<br />
+*Nov 2022 – Aug 2024*  
 
-What will I write here, I wonder?
+**Company Background**: Gak Gendut Lagi (GGL) is Indonesia's No.1 Fatloss Coaching Community trused by more than 300k members.
 
-<br />
+- Achieved a 25% cost reduction by migrating to Google Kubernetes Engine (GKE), implementing Prometheus and Grafana, and optimizing infrastructure monitoring and analytics, resulting in monthly savings of approximately IDR 12 million.
+- Led a successful migration from Google Cloud Engine (GCE) to Biznet Gio, resulting in a 44.6% cost reduction and monthly savings of approximately IDR 5 million.
+- Strengthened application security by integrating SonarQube and Fluid Attack for vulnerability scanning, specifically mitigating OWASP Top 10 A06:2021 - "Vulnerable and Outdated Components."
+- Automated SSL certificate renewal using GitHub Actions, Certbot, and Cloudflare, resulting in a measurable reduction in downtime by 90% and enhancing application security, which improved Service Level Agreement (SLA) compliance by 15%.
+- Established centralized documentation using docusaurus with search capabilities improve engineer productivity up to 30%.
+- Conducted incident response and post-mortem analyses for server outages, including troubleshooting MeiliSearch indexing, MySQL freezes, Sentry APM downtime, and Laravel backend issues.
+- Designed and implemented a real-time chat server using Firebase Cloud Messaging (FCM), supporting a user base of ~4,000.
+- Performed stress testing and load testing with Golang, Tsung, Gatling, K6, and Jmeter to ensure system robustness.
+- Managed application performance monitoring with Sentry APM.
 
-# Software Engineer (Frontend)
+## DevOps Engineer
 
-**Ruangguru, Indonesia**
+**Kinnara Digital Studio**  
 
-*2019 - Aug 2021, Full-time*
+*Jul 2019 - Nov 2022*  
 
-<br />
+**Company Background**: Kinnara Digital Studio is a digital solutions agency specializing in creating tailored software and applications for various industries, including healthcare, finance, and e-government. The firm focuses on leveraging technology to improve operational efficiency and user experiences.
 
-Assigned to skillacademy.com team. I worked on:
+- Deployed and managed a scalable Docker Swarm cluster for a state-owned enterprise's e-approval application, utilizing nginx’s IP hash algorithm for load balancing.
+- Built CI/CD pipelines with GitLab CI for Java and PHP projects, utilizing Maven, Composer, npm, and Ant for build management.
+- Managed deployment and scaling for Java and Laravel applications on OpenShift OKD.
+- Oversaw ERP systems, including Odoo and Openbravo, to support business operations.
+- Proactively identified and resolved web server issues on Apache, Nginx, and Tomcat, including SSL certificate renewal.
+- Managed cloud infrastructure across Linode, Digital Ocean, and GCP for reliable and scalable operations.
+- Established automated documentation workflows with Jekyll, maintaining up-to-date version control for documentation.
+- Promoted DevOps culture with the adoption of Docker, Prometheus, Grafana, Jenkins, and SonarQube.
 
-<br />
+## Software Engineer
 
-1. Skillacademy client-facing web platform. Tech stacks: ReasonML, React + ReasonReact
-    * Helped Build a B2C MOOC platform that includes (but is not limited to): Custom Video Player with DRM, Exam/Quiz Platform, Custom File Upload (for homework).
-    * Implement a cashless payment method (OVO Indonesia) on the frontend with a websocket. I'm the first one to introduce websocket to the whole frontend team.
-    * Main developer for a massive government project named Pra-Kerja that, at some point, is the major contributor to our company revenue.
-    * Maintain the codebase by performing readable & maintainable code principles.
-    * Develop platitude marketing campaigns on the site, including but not limited to: numerous flash sales, referral programs, and other ad-hoc advertisement campaigns.
-    * Mentoring a few newcomers to become productive on our codebase since I have the most domain (at my engineering level) knowledge of the whole application.
+**Kinnara Digital Studio**  
 
-<br />
+*Jan 2019 - Jun 2019*  
 
-2. Skillacademy Content Management System (CMS). Tech stack: Typescript and React
-    * Initiate the rewrite of our CMS from javascript to typescript. This is one of the first typescript apps for the whole frontend team. We previously use Javascript + Flow or ReasonML for the frontend codebase.
-    * Develop dynamic UI screen project for skillacademy where admin can change some parts of the UI of skillacademy.com with drag and drop method. This is useful for marketing campaigns too. (UNRELEASE -- SAD)
- 
-<br />
+**Company Background**: Kinnara Digital Studio is not only a digital solutions agency but also a nurturing ground for budding technology professionals, focusing on skill development and innovative project delivery.
 
-3. Skillacademy Cordova Platform for mobile application. Tech stack: Cordova.
-    * I'm one of the maintainers of the Cordova application that used to be our main stack for the mobile application before the app was rewritten to react-native.
-
-<br />
-
-# Technical Founder
-
-**Sirius Teknologi Indonesia**
-
-*2019 - 2020*
-
-<br />
-
-A software agency focused on web and mobile application.
-
-<br />
-
-Project:
-
-<br />
-
-1. Built a document management system for an indonesian airline
-   - Backend web application. Tech stacks: Typescript, NodeJS, Azure
-   - Frontend web application. Tech stacks: Typescript, React, Redux
-   - Mobile application. Tech stacks: Typescript, React Native, Redux
-   - DevOps: Azure Web App for both frontend and backend, and Azure DevOps for CI/CD platform.
-
-<br />
-
-# Frontend Engineer
-
-**Codemi, Indonesia**
-
-*2018 - 2019, Full-time*
-
-<br />
-   
-- Developed and maintained learning management system frontend in javascript & reactJS, both client side and admin dashboard
-- Developed an online course platform frontend using javascript & reactJS
-   
-<br />
-
-# Math, Physics, & Engineering course Tutor
-   
-**Smart Privat, Indonesia**
-
-*2014 - 2017, Part-time*
-
-<br />
-   
-- Taught mathematics & physics to a first year students at Bandung Institute of Technology
-- Taught programming (C++) & engineering course to a second year student at Bandung Institute of Technology
-   
+- Developed spreadsheet plugins for Kecak workflow and resolved interim participant plugin issues.
 `;
 
 export function AppWorkHistory() {

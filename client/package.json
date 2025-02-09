@@ -1,5 +1,5 @@
 {
-  "name": "fakhrusy-com-client",
+  "name": "mamadevops-com-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@reduxjs/toolkit": "^1.9.5",
+    "caniuse-lite": "",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.12.10",
     "next": "^13.4.0",

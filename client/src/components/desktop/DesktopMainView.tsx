@@ -52,11 +52,9 @@ export function DesktopMainView() {
   useEffect(() => {
     const eventHandler = (event: KeyboardEvent) => {
       if (focusedApp !== "DesktopMainView") {
-        // set active app upon pressing enter when there is a focused app
         if (event.key === "Enter") {
           setActiveDesktopApp(focusedApp);
         } else if (event.key === "Escape") {
-          // release focused app
           setFocusedDesktopApp("DesktopMainView");
         }
       }
@@ -72,13 +70,16 @@ export function DesktopMainView() {
       const isFocusedOnAnyApp = focusedApp !== "DesktopMainView";
 
       if (isFocusedOnAnyApp) {
-        const isTargetNotDesktopIcon =
-          (e.target as HTMLDivElement)?.className
-            .split(" ")
-            .includes(className.desktopIcon) === false;
+        const target = e.target; // e.target can be any event target
+        if (target instanceof HTMLElement) {
+          const isTargetNotDesktopIcon =
+            (target.className || "").split(" ").includes(className.desktopIcon) === false;
 
-        if (isTargetNotDesktopIcon) {
-          setFocusedDesktopApp("DesktopMainView");
+          if (isTargetNotDesktopIcon) {
+            setFocusedDesktopApp("DesktopMainView");
+          }
+        } else {
+          console.warn("Event target is not an HTMLElement:", target);
         }
       }
     },
@@ -98,7 +99,7 @@ export function DesktopMainView() {
   return (
     <Flex
       flexGrow={1}
-      backgroundImage="url(/images/desktop-bg/debian-uwu.png)"
+      backgroundImage="url(/images/desktop-bg/mamadevops-bg.jpeg)"
       backgroundRepeat="repeat"
       pos="relative"
       backgroundPosition="center"

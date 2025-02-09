@@ -2,7 +2,7 @@ import { AppMarkdownLayout } from "@/components/desktop/apps/layout/AppMarkdownL
 
 const md = `
 ## **About me**
-Fahru, Tucson, AZ, USA  
+Fahmi, Bandung, West Java, ID  
 Origin: Indonesia  
 
 <br />
@@ -13,45 +13,43 @@ Software Engineer. Tinkerer. Hacker.
 <br />
 
 ## **Tech stacks I worked on**
-- Web stacks: HTML5, CSS3, Javascript
-- Typescript
-- ReasonML
-- React
-- NodeJS
-- PostgreSQL
+- **CI/CD Tools**: GitLab CI, GitHub Actions, Jenkins
+- **Cloud Platforms**: Google Cloud Platform (GCP), AWS, Digital Ocean, Linode, Biznet Gio
+- **Containerization**: Docker, Docker Swarm, Kubernetes, OpenShift OKD
+- **Automation & Scripting**: Bash, Python, Golang
+- **Infrastructure Management**: Linux, Windows Server, Terraform, Ansible
+- **Monitoring and Security**: Prometheus, Grafana, Sentry APM, Datadog, SonarQube, Fluid Attack
 
 <br />
 
-## **Other skills**
-- CI/CD with Gitlab CI, and GitHub Action
-- Linux web server (nginx/apache) config
-- DNS config
-- Web animation & SVGs
-- Docker
+## **Languages I speak**
+- Indonesian (native)
+- English (B2)
+- Arabic (C2)
 
 <br />
 
 ## **Currently interested about:**
-- Web Assembly with either Rust/C++
-- Building graphic-intensive web application
-- Cyber Security (especially CTF)
-- etc... follow me on [mastodon](https://fosstodon.org/fahru) to find out!
+- Cloud Native Computing
+- Automation & Scripting
+- Security
+- Image Generation like [Stable Diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion) ...
+- LLM
 
 <br />
 
-## **My take on software engineering**
-- Problem solving at its core
-- Maintainable and readable code is important
-- Pragmatism on tight deadline
-- Programming language is just a tool
+## **My Take on DevOps Engineering**
+- A collaborative approach between development and operations is key to improving efficiency.
+- Be Lazy. Automation should always be prioritized to reduce manual errors and speed up delivery.
+- Security and cost-effectiveness should be integral to all processes.
+- Continuous learning and adaptation are essential in the fast-evolving tech landscape.
 
 <br />
 
 **Hobbies**
-- Learning stuffs. Anything, really.
-- Writing. I'm preparing a blog!
-- Building something cool. Tinkering about stuffs.
-- Reading articles on the web & cool stuffs on twitter, still working on developing reading books as a habit.
+- Learning something new, even it is cooking.
+- Writing technical articles; I'm preparing a [blog](https://dev.to/fahmimmaliki) to share insights and knowledge!
+- Developing and tinkering with DIY tech projects.
 
 `;
 

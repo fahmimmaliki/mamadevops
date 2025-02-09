@@ -82,7 +82,7 @@ function IntroView({ hideIntro }: IntroViewProps) {
           w="180px"
           display="flex"
           alignItems="center"
-          href="https://blog.fakhrusy.com"
+          href="https://dev.to/fahmimmaliki"
           target="_blank"
         >
           <Text as="span" mr={2}>
@@ -117,7 +117,7 @@ function MainView() {
       h={height}
       flexDir="column"
     >
-      <Image src="/images/under_construction.png" alt="under construction" />
+      <Image src="/images/mama-wip.png" alt="under construction" />
       <Text mt={4}>Under Construction</Text>
     </Flex>
   );
@@ -127,7 +127,7 @@ function MainView() {
   //       width: "100%",
   //       height,
   //     }}
-  //     src="https://blog.fakhrusy.com"
+  //     src="https://blog.mamadevops.com"
   //     title="blog"
   //   />
   // );
